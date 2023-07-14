@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - A prints the size of various types various it has complied and run on
  * return: 0 (Sucessful)
