@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** 
+/**
  * main - states if a number is negative postive or zero
  *
  * Return: 0
@@ -12,7 +12,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n == 0)
 	{
@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is positive\n", n);
 	}
