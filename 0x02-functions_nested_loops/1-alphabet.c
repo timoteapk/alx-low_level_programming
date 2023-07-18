@@ -1,12 +1,17 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main -  prints lowercaase alphabets 
+ * main -  prints lowercaase alphabets
+ *
+ * print_alphabet - function for printing alphabetes
  *
  * Return: always 0 successful
  */
 void print_alphabet(void)
 {
-	for(char i = 'a'; i <= 'z'; i++);
+	for (char i = 'a'; i <= 'z'; i++)
+		;
+
 	{
 		putchar(i);
 	}
