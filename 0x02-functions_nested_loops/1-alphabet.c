@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 /**
  * main -  prints lowercaase alphabets
  *
@@ -7,19 +6,18 @@
  *
  * Return: always 0 successful
  */
+
 void print_alphabet(void)
 {
-	for (char i = 'a'; i <= 'z'; i++)
-		;
-
+	for (char letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(i);
+		putchar(letter);
 	}
 	putchar('\n');
 }
 
 int main(void)
 {
-	print_alphabet(void);
+	void print_alphabet(void);
 	return (0);
 }
