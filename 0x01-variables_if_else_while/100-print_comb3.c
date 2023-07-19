@@ -7,12 +7,10 @@
 int main(void)
 {
 	int i, j;
-	for (int i = 0; i < 10; i++)
+
+	for (int i = '0'; i <= '9'; i++)
 	{
-		for (int j =i + 1; j < 10; j++)
-		{
-			printf("%d%d,", i, j);
-		}
-	}
+		for (j = i + '1'; p <= '9'; j++)
+
 	return 0;
 }
