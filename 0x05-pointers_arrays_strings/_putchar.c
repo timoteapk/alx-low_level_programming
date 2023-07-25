@@ -1,5 +1,5 @@
-#include "main.c"
-#include <unisdt.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
  * main - point of entry
