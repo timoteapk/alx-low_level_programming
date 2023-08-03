@@ -1,13 +1,13 @@
 #include "main.h"
 
+int actual_sqrt_recursion(int n, int a);
+
 /**
  * _sqrt_recursion - neutral root
  * @n: num to calculate root
  *
  * Return: neutral root return
  */
-
-int actual_sqrt_recursion(int n, int a);
 
 int _sqrt_recursion(int n)
 {
