@@ -9,7 +9,7 @@
  * Result: successful (0)
  */
 
-int main (int n, char *ar[])
+int main(int n, char *ar[])
 {
 	(void)ar;
 	printf ("%d\n", n - 1);
